@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="guessingGame.css" />
+  </head>
+  <body>
+    <section>
+      <div class="main-section">
+        <div class="input-section">
+          <form>
+            <input
+              type="number"
+              name="number"
+              id="number"
+              max="5"
+              min="1"
+              class="input-filed"
+              placeholder="Guess Number"
+              required
+            />
+          </form>
+        </div>
+
+        <div class="massage-section">
+          <p class="massage-para">You can play 5 times</p>
+        </div>
+        <div class="show-all-value">
+          <h2 class="show-won">You Won = 0</h2>
+          <h2 class="show-loss">You Loss = 0</h2>
+        </div>
+
+        <div class="button-section">
+          <div class="start-section">
+            <button type="button" class="btn start-btn">START</button>
+          </div>
+          <div class="reset-section">
+            <button type="button" class="btn reset-btn">Agin play</button>
+          </div>
+        </div>
+
+        <p>Any 1 number between 1 to 5 should be given</p>
+      </div>
+    </section>
+
+    <script src="guessingGame.js"></script>
+  </body>
+</html>
